@@ -8,7 +8,8 @@ public class Hello {
 
     @GetMapping(value = "/greeting")
     public String greeting() {
-        return "Hello";
+        System.out.println("yeamgood test sysout print");
+        return "Hello test sysout";
     }
 
     @GetMapping(value = "/greeting2")
